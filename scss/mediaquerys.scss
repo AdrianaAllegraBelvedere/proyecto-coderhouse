@@ -1,0 +1,344 @@
+@media only screen and (max-width:599px){
+  
+.topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    ul{
+      text-align: center;
+    }
+  }
+  
+  .topnav {
+    a {
+      color: white;
+      padding: 10px 12px;
+      text-decoration: none;
+      font-size: 12px;
+      display: block;
+      
+    }
+    .icon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+  }
+  
+  
+  .topnav a:hover {
+    color: black;
+  }
+  
+  .active {
+    color: white;
+  }
+}
+@media only screen and (min-width:600px) and (max-width:991px){
+    #desplegable{
+        display: none;
+    }
+
+      .navegacion{
+        ul{
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          justify-content: space-between;
+        }
+      }
+      
+    #flexHeader{
+      padding: 10px;
+      display: flex;
+      flex-direction: column-reverse;
+
+      a{
+        padding: 20px;
+        font-size: 12px;
+      }
+    }
+
+    .centro{
+      .frase{
+          font-size: 25px;
+      }
+      .botonContacto{
+           p{
+              font-size: 15px;
+          }
+      }
+  }
+  .mainInicio{
+    .imgPresentacion{ 
+      img {
+          width: 350px;
+          margin: 50px;
+      }
+    }
+  
+  }
+  .textoInicio{
+      p{
+          margin: 30px;
+      }
+  }
+  //seccion sobre mi presentacion
+  .flexSobreMi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      .imgSobreMi {
+        img{   
+            width: 500px;
+        }
+    }
+    .imgPresentacionTrabajo{
+        img{
+            width: 500px;
+        }
+    }
+  }
+  //testimonios
+
+  .contenedorTestimonios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    .testimonios{
+      width: 300px;
+      padding: 80px;
+    }
+
+  }
+  
+  /*Seccion Servicios*/
+  .servicios{
+    img {
+        width: 500px;
+    }
+    p {
+        width: 500px;
+    }
+  }
+
+  /*Seccion Blog*/
+  .mainBlog{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .entradaBlog{
+        width: 400px;
+      }
+  }
+  //seccion contacto
+  .formulario{
+    padding: 60px;
+}
+
+.footer{
+    height: 50px;
+    p{
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+}
+
+    
+}
+@media only screen and (min-width:992px){
+  #desplegable{
+      display: none;
+  }
+  #flexHeader{
+    
+      display: flex;
+      justify-content: space-between;
+      li{
+      margin: 12px;
+      }
+      ul{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }  
+    }
+    
+    .centro{
+      .frase{
+      font-size: 28px;
+    }
+    }
+   
+    .mainInicio{
+        display: flex;
+        padding: 10%;
+
+        .imgPresentacion{
+          img{
+            width: 450px;
+          width: 400px;
+          display: block;
+          margin-left: 20px;
+        }
+    }
+    
+    .textoInicio{
+        display: flex;
+        align-items: center;
+        padding: 5%;
+        p{
+          width: 80%;
+          
+      }
+    }
+    
+  }
+    //sobre mi
+    .sobreMi{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+     
+
+      .grillaSobreMi{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: "imgPresentacion textoPresentacion"
+                            "textoTrabajo imgTrabajo";
+    
+      .imgSobreMi{
+          display: block;
+          grid-area: imgPresentacion;
+          padding: 20px;
+          width: 500px;
+          img{
+            width: 80%;
+            
+        }
+      }
+      .presentacionPersonal{
+          grid-area: textoPresentacion;
+          padding-top: 40px;
+          width: 500px;
+      }
+      .imgPresentacionTrabajo{
+          display: block;
+          grid-area: imgTrabajo;
+          padding: 20px;
+          width: 500px;
+          img{
+            width: 80%;
+        }
+      }
+      .presentacionTrabajo{
+          grid-area: textoTrabajo;
+          padding: 20px;
+          width: 450px;
+      }
+    }
+  }
+
+  .testimoniosSection{
+    .contenedorTestimonios{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+ 
+    .testimonios{
+      width: 300px;
+      padding: 80px;
+    
+  }
+  }
+  
+
+  //seccion servicios
+    .contenedorServicios{
+      padding: 15px;
+  }
+  .servicios{
+      display: flex;
+      justify-content: space-evenly;
+
+      img {
+        width: 40%;
+      }
+      .textoServicios{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .flexTexto{
+          display: flex;
+          flex-direction: column;
+          h3{
+            padding: 10px;
+        }
+      }
+    }
+  }
+  .mainBlog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .entradaBlog{
+      width: 550px;
+  }
+
+  }
+  
+  /*seccion Contacto*/
+  .contacto{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .contactoTextoImagen{
+        .imgContacto{
+            img{
+                width: 500px;
+            }
+        }
+        .imgContacto{
+            img{
+                width: 500px;
+            }
+        }
+    }
+    
+    .formulario{
+        padding: 40px;
+    }
+  }
+  .footer{
+    footer{
+      height: 40px;
+
+      p{
+        padding-top: 10px;
+        padding-left: 20px
+      }
+    }
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+

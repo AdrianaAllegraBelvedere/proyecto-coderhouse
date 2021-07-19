@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+
+        <header class="primerHeader">
+            <div id="flexHeader" class="topnav">
+                <a href="index.html" class="active">
+                    <h1>Alejandra Belvedere </h1>
+                    <h2>Consultoria de imagen</h2> 
+                </a>
+                <div id="myLinks">
+                    <nav class="navegacion">
+                        <ul>
+                            <li><a href="../index.html">Inicio</a></li>
+                            <li><a href="sobremi.html">Sobre mi</a> </li>
+                            <li><a href="servicios.html">Servicios</a> </li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <a id="desplegable" href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="centro">
+                <div class="frase">
+                    <p>Consultoría de imagen</p>
+                    <p>para mujeres profesionales 40+</p>
+                    <p>que buscan reflejar su esencia</p>
+                    <p> en su guardarropa.</p>
+                </div>
+                
+            </div>
+        
+        </header>
+        <main class="mainBlog">
+            <div class="entradaBlog">
+                <img class="imgBlog" src="../img/entrada1.jpg" alt="">
+                <h3>Colorimetria</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Odio eos numquam excepturi soluta non nobis laborum, molestias architecto 
+                    illum neque officiis vel nesciunt accusantium nostrum animi quisquam quas totam rerum.
+                </p>
+            </div>
+            
+            <div class="entradaBlog">
+                <img class="imgBlog" src="../img/entrada2.jpg" alt="">
+                <h3>Guardarropas</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Odio eos numquam excepturi soluta non nobis laborum, molestias architecto 
+                    illum neque officiis vel nesciunt accusantium nostrum animi quisquam quas totam rerum.
+                </p>
+            </div>
+            <div  class="entradaBlog">
+                <img class="imgBlog" src="../img/entrada3.jpg" alt="">
+                <h3>Imagen profecional</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Odio eos numquam excepturi soluta non nobis laborum, molestias architecto 
+                    illum neque officiis vel nesciunt accusantium nostrum animi quisquam quas totam rerum.
+                </p>
+            </div>
+    
+        </main>
+        
+        <div class="footer">
+            <footer>
+                <p>© 2021 Alejandra Belvedere </p>
+            </footer>
+        </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+        <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        }
+        </script>
+
+    </body>
+</html>

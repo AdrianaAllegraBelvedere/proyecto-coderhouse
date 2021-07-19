@@ -1,0 +1,56 @@
+.sobreMi{
+    h3{
+        color: #F89953;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .imgSobreMi{
+        img {
+            width: 250px;
+            margin: 20px;
+            
+        }
+    }
+    .presentacionPersonal{
+        p{
+            margin: 20px;
+        }
+    }
+    .imgPresentacionTrabajo{ 
+        img{
+            width: 250px;
+            margin: 20px;
+        }
+    }
+    .presentacionPersonal{
+        p{
+            margin: 20px;
+        }
+    }
+}
+//testimonios
+.testimoniosSection{
+    h3{
+        color: #F89953;
+        font-size: 20px;
+        text-align: center;
+    }
+    .testimonios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+        padding: 15px;
+        background-color: #ffffff;
+
+        img{
+            width: 150px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        blockquote{
+            text-align: center;
+        }
+    }
+}

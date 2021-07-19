@@ -1,0 +1,21 @@
+.entradaBlog{
+    margin: 20px;
+    border: 2px solid;
+    border-color: rgb(228, 224, 224);
+    width: 300px;
+    .imgBlog{
+        width: 100%;
+    }
+    p{
+        padding: 10px;
+    }
+    h3{
+        margin: 10px;
+        color: #F89953;
+    }
+   
+}
+.entradaBlog:hover {
+    transform: scale(1.1);
+}
+

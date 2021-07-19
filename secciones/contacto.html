@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="segundoHeader">
+    <div class="primerMitadHeader">
+        <div id="flexHeader" class="topnav">
+            <a href="index.html" class="active">
+                <h1>Alejandra Belvedere </h1>
+                <h2>Consultoria de imagen</h2> 
+            </a>
+        <div id="myLinks">
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="sobremi.html">Sobre mi</a> </li>
+                    <li><a href="servicios.html">Servicios</a> </li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <a id="desplegable" href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+        
+    </div>
+ 
+</header>
+
+<main class="contacto">
+    <div class="contactoTextoImagen">
+        <div class="imgContacto">
+            <img src="../img/contacto.jpg" alt="imagen de contacto">
+        </div>
+        <div class="textoContcto">
+            <h3>Deja tu consulta</h3>
+            <p>Me pondre en contacto a la brevedad</p>
+        </div>
+    </div>
+    <!--Formulario-->
+
+    <div class="formulario">
+        <form action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder="Ingrese su nombre" id="nombre">
+           
+
+            <label for="correo">Correo:</label>
+            <input type="email" placeholder="Ingrese su nombre" id="correo">
+            
+            <label> Tú Mensaje:</label>
+            <textarea cols="40" rows="10"></textarea>
+
+
+            <input class="submit" type="submit">
+        </form>
+    </div>
+</main>
+<div class="footer">
+    <footer>
+        <p>© 2021 Alejandra Belvedere </p>
+    </footer>
+</div>
+
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+    
+    </body>
+    </html>

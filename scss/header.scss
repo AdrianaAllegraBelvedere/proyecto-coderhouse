@@ -1,0 +1,46 @@
+//primer header
+.primerHeader{
+    height: 80vh;
+    background-image: url('../img/hero.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding: 20px;
+    .centro{
+        grid-area: centro;
+        text-align: center;
+        font-size: 14px;
+        margin: 80px;
+
+        .frase{
+            p{
+            color: rgb(255, 255, 255);
+            }
+        }
+        .botonContacto{
+                button{
+                padding: 12px 10px;
+                margin: 10px;
+                border: none;
+                background-color:  #F89953;
+                color: rgb(255, 254, 254);
+                
+            }
+        }
+        .botonContacto:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+//segundo header
+.segundoHeader{
+    background-color: #F89953;
+    padding: 10px;
+    h1{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    
+}

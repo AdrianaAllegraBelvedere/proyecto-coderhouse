@@ -1,0 +1,41 @@
+@import "header";
+@import "inicio";
+@import "sobremi";
+@import "servicios";
+@import "blog";
+@import "contacto";
+@import "footer";
+@import "mediaquerys";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    
+}
+
+p{
+    font-family: 'Lora', serif;
+    font-size: 500;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
