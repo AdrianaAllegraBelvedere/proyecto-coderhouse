@@ -3,17 +3,17 @@
   background-image: url("../img/hero.jpg");
   background-position: center center;
   background-size: cover;
-  padding: 20px; }
+  padding: 2rem; }
   .primerHeader .centro {
     grid-area: centro;
     text-align: center;
-    font-size: 14px;
-    margin: 80px; }
+    font-size: 1.4rem;
+    margin: 8rem; }
     .primerHeader .centro .frase p {
       color: white; }
     .primerHeader .centro .botonContacto button {
-      padding: 12px 10px;
-      margin: 10px;
+      padding: 1.2rem 1rem;
+      margin: 1rem;
       border: none;
       background-color: #F89953;
       color: #fffefe; }
@@ -22,87 +22,87 @@
 
 .segundoHeader {
   background-color: #F89953;
-  padding: 10px; }
+  padding: 1rem; }
   .segundoHeader h1 {
-    font-size: 22px; }
+    font-size: 2.2rem; }
   .segundoHeader h2 {
-    font-size: 18px; }
+    font-size: 1.8rem; }
 
 .mainInicio .imgPresentacion {
   display: flex;
   justify-content: center; }
   .mainInicio .imgPresentacion img {
-    width: 200px;
-    margin-top: 15px;
+    width: 20rem;
+    margin-top: 1.5rem;
     border-radius: 3%; }
 
 .mainInicio .textoInicio p {
-  margin: 10px;
-  font-size: 15px; }
+  margin: 1rem;
+  font-size: 1.5rem; }
 
 .sobreMi h3 {
   color: #F89953;
-  font-size: 20px;
+  font-size: 2rem;
   text-align: center;
-  margin-top: 10px; }
+  margin-top: 1rem; }
 
 .sobreMi .imgSobreMi img {
-  width: 250px;
-  margin: 20px; }
+  width: 25rem;
+  margin: 2rem; }
 
 .sobreMi .presentacionPersonal p {
-  margin: 20px; }
+  margin: 2rem; }
 
 .sobreMi .imgPresentacionTrabajo img {
-  width: 250px;
-  margin: 20px; }
+  width: 25rem;
+  margin: 2rem; }
 
 .sobreMi .presentacionPersonal p {
-  margin: 20px; }
+  margin: 2rem; }
 
 .testimoniosSection h3 {
   color: #F89953;
-  font-size: 20px;
+  font-size: 2rem;
   text-align: center; }
 
 .testimoniosSection .testimonios {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15px;
-  padding: 15px;
+  margin: 1.5rem;
+  padding: 1.5rem;
   background-color: #ffffff; }
   .testimoniosSection .testimonios img {
-    width: 150px;
+    width: 15rem;
     border-radius: 50%;
-    margin: 10px; }
+    margin: 1rem; }
   .testimoniosSection .testimonios blockquote {
     text-align: center; }
 
 .servicios {
-  margin: 10px;
-  padding: 10px;
+  margin: 1rem;
+  padding: 1rem;
   background-color: #ffffff; }
   .servicios img {
-    width: 300px;
+    width: 30rem;
     border-radius: 3%; }
   .servicios p {
-    width: 300px; }
+    width: 30rem; }
   .servicios h3 {
     color: #F89953;
-    padding: 10px; }
+    padding: 1rem; }
 
 .entradaBlog {
-  margin: 20px;
-  border: 2px solid;
+  margin: 2rem;
+  border: 2rem solid;
   border-color: #e4e0e0;
-  width: 300px; }
+  width: 30rem; }
   .entradaBlog .imgBlog {
     width: 100%; }
   .entradaBlog p {
-    padding: 10px; }
+    padding: 1rem; }
   .entradaBlog h3 {
-    margin: 10px;
+    margin: 1rem;
     color: #F89953; }
 
 .entradaBlog:hover {
@@ -111,47 +111,47 @@
 .contacto {
   width: 100%; }
   .contacto .contactoTextoImagen {
-    padding: 20px;
+    padding: 2rem;
     text-align: center; }
     .contacto .contactoTextoImagen h3 {
       color: #F89953;
-      margin-bottom: 20px; }
+      margin-bottom: 2rem; }
     .contacto .contactoTextoImagen .imgContacto img {
-      margin: 20px;
+      margin: 2rem;
       width: 90%; }
   .contacto .formulario form {
-    padding: 12px;
+    padding: 1.2rem;
     display: flex;
     flex-direction: column; }
     .contacto .formulario form input {
-      padding: 12px 20px;
-      margin: 8px 0;
+      padding: 1.2rem 2rem;
+      margin: .8rem 0;
       display: inline-block;
-      border: 1px solid #ccc;
-      border-radius: 4px;
+      border: .2rem solid #ccc;
+      border-radius: .4rem;
       box-sizing: border-box;
-      margin-bottom: 20px; }
+      margin-bottom: 2rem; }
     .contacto .formulario form input[type=submit] {
       background-color: #F89953;
       color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
+      padding: 1.4rem 2rem;
+      margin: .8rem 0;
       border: none;
-      border-radius: 4px;
+      border-radius: .4rem;
       cursor: pointer; }
     .contacto .formulario form .submit:hover {
       transform: scale(1.1); }
   .contacto .formulario textarea {
-    margin-top: 20px;
+    margin-top: 2rem;
     width: 100%;
-    height: 200px;
+    height: 20rem;
     text-align: end; }
 
 .footer {
   background: #F89953; }
   .footer p {
     color: #ffffff;
-    font-size: 14px; }
+    font-size: 1.4rem; }
 
 @media only screen and (max-width: 599px) {
   .topnav {
@@ -163,9 +163,9 @@
       text-align: center; }
   .topnav a {
     color: white;
-    padding: 10px 12px;
+    padding: 1rem 1.2rem;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 1.2rem;
     display: block; }
   .topnav .icon {
     display: block;
@@ -186,55 +186,55 @@
     width: 100%;
     justify-content: space-between; }
   #flexHeader {
-    padding: 10px;
+    padding: 1rem;
     display: flex;
     flex-direction: column-reverse; }
     #flexHeader a {
-      padding: 20px;
-      font-size: 12px; }
+      padding: 2rem;
+      font-size: 1.2rem; }
   .centro .frase {
-    font-size: 25px; }
+    font-size: 2.5rem; }
   .centro .botonContacto p {
-    font-size: 15px; }
+    font-size: 1.5rem; }
   .mainInicio .imgPresentacion img {
-    width: 350px;
-    margin: 50px; }
+    width: 35rem;
+    margin: 5rem; }
   .textoInicio p {
-    margin: 30px; }
+    margin: 3rem; }
   .flexSobreMi {
     display: flex;
     flex-direction: column;
     align-items: center; }
     .flexSobreMi .imgSobreMi img {
-      width: 500px; }
+      width: 50rem; }
     .flexSobreMi .imgPresentacionTrabajo img {
-      width: 500px; }
+      width: 50rem; }
   .contenedorTestimonios {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
     .contenedorTestimonios .testimonios {
-      width: 300px;
-      padding: 80px; }
+      width: 30rem;
+      padding: 8rem; }
   /*Seccion Servicios*/
   .servicios img {
-    width: 500px; }
+    width: 50rem; }
   .servicios p {
-    width: 500px; }
+    width: 50rem; }
   /*Seccion Blog*/
   .mainBlog {
     display: flex;
     flex-direction: column;
     align-items: center; }
     .mainBlog .entradaBlog {
-      width: 400px; }
+      width: 40rem; }
   .formulario {
-    padding: 60px; }
+    padding: 6rem; }
   .footer {
-    height: 50px; }
+    height: 5rem; }
     .footer p {
-      padding-top: 10px;
-      margin-left: 20px; } }
+      padding-top: 1rem;
+      margin-left: 2rem; } }
 
 @media only screen and (min-width: 992px) {
   #desplegable {
@@ -243,21 +243,21 @@
     display: flex;
     justify-content: space-between; }
     #flexHeader li {
-      margin: 12px; }
+      margin: 1.2rem; }
     #flexHeader ul {
       display: flex;
       flex-direction: row;
       width: 100%; }
   .centro .frase {
-    font-size: 28px; }
+    font-size: 2.8rem; }
   .mainInicio {
     display: flex;
     padding: 10%; }
     .mainInicio .imgPresentacion img {
-      width: 450px;
-      width: 400px;
+      width: 45rem;
+      width: 40rem;
       display: block;
-      margin-left: 20px; }
+      margin-left: 2rem; }
     .mainInicio .textoInicio {
       display: flex;
       align-items: center;
@@ -268,7 +268,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px; }
+    margin: 2rem; }
     .sobreMi .grillaSobreMi {
       display: grid;
       grid-template-columns: 50% 50%;
@@ -277,34 +277,34 @@
       .sobreMi .grillaSobreMi .imgSobreMi {
         display: block;
         grid-area: imgPresentacion;
-        padding: 20px;
-        width: 500px; }
+        padding: 2rem;
+        width: 50rem; }
         .sobreMi .grillaSobreMi .imgSobreMi img {
           width: 80%; }
       .sobreMi .grillaSobreMi .presentacionPersonal {
         grid-area: textoPresentacion;
-        padding-top: 40px;
-        width: 500px; }
+        padding-top: 4rem;
+        width: 50rem; }
       .sobreMi .grillaSobreMi .imgPresentacionTrabajo {
         display: block;
         grid-area: imgTrabajo;
-        padding: 20px;
-        width: 500px; }
+        padding: 2rem;
+        width: 50rem; }
         .sobreMi .grillaSobreMi .imgPresentacionTrabajo img {
           width: 80%; }
       .sobreMi .grillaSobreMi .presentacionTrabajo {
         grid-area: textoTrabajo;
-        padding: 20px;
-        width: 450px; }
+        padding: 2rem;
+        width: 45rem; }
   .testimoniosSection .contenedorTestimonios {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
   .testimoniosSection .testimonios {
-    width: 300px;
-    padding: 80px; }
+    width: 30rem;
+    padding: 8rem; }
   .contenedorServicios {
-    padding: 15px; }
+    padding: 1.5rem; }
   .servicios {
     display: flex;
     justify-content: space-evenly; }
@@ -318,13 +318,13 @@
         display: flex;
         flex-direction: column; }
         .servicios .textoServicios .flexTexto h3 {
-          padding: 10px; }
+          padding: 1rem; }
   .mainBlog {
     display: flex;
     flex-direction: row;
     justify-content: center; }
     .mainBlog .entradaBlog {
-      width: 550px; }
+      width: 55rem; }
   /*seccion Contacto*/
   .contacto {
     min-height: 100vh;
@@ -332,22 +332,26 @@
     justify-content: space-evenly;
     align-items: center; }
     .contacto .contactoTextoImagen .imgContacto img {
-      width: 500px; }
+      width: 50rem; }
     .contacto .contactoTextoImagen .imgContacto img {
-      width: 500px; }
+      width: 50rem; }
     .contacto .formulario {
-      padding: 40px; }
+      padding: 4rem; }
   .footer footer {
-    height: 40px; }
+    height: 4rem; }
     .footer footer p {
-      padding-top: 10px;
-      padding-left: 20px; } }
+      padding-top: 1rem;
+      padding-left: 2rem; } }
+
+html {
+  font-size: 62.5%; }
 
 * {
   margin: 0;
   padding: 0; }
 
 body {
+  font-size: 1.6rem;
   font-family: 'Lora', serif;
   font-family: 'Montserrat', sans-serif;
   background-color: #f9f9f9; }

@@ -14,9 +14,9 @@
   .topnav{
     a{
       color: white;
-      padding: 10px 12px;
+      padding: 1rem 1.2rem;
       text-decoration: none;
-      font-size: 12px;
+      font-size: 1.2rem;
       display: block;
     }
     .icon {
@@ -49,38 +49,38 @@
   }
       
   #flexHeader{
-    padding: 10px;
+    padding: 1rem;
     display: flex;
     flex-direction: column-reverse;
 
     a{
-      padding: 20px;
-      font-size: 12px;
+      padding: 2rem;
+      font-size: 1.2rem;
     }
   }
 
   .centro{
     .frase{
-      font-size: 25px;
+      font-size: 2.5rem;
     }
     .botonContacto{
       p{
-        font-size: 15px;
+        font-size: 1.5rem;
       }
     }
   }
   .mainInicio{
     .imgPresentacion{ 
       img {
-          width: 350px;
-          margin: 50px;
+          width: 35rem;
+          margin: 5rem;
       }
     }
   }
 
   .textoInicio{
     p{
-       margin: 30px;
+       margin: 3rem;
     }
   }
   //seccion sobre mi presentacion
@@ -91,12 +91,12 @@
 
     .imgSobreMi {
       img{   
-        width: 500px;
+        width: 50rem;
       }
     }
     .imgPresentacionTrabajo{
       img{
-        width: 500px;
+        width: 50rem;
       }
     }
   }
@@ -108,8 +108,8 @@
     flex-wrap: wrap;
     
     .testimonios{
-      width: 300px;
-      padding: 80px;
+      width: 30rem;
+      padding: 8rem;
     }
 
   }
@@ -117,10 +117,10 @@
   /*Seccion Servicios*/
   .servicios{
     img {
-      width: 500px;
+      width: 50rem;
     }
     p {
-      width: 500px;
+      width: 50rem;
     }
   }
 
@@ -130,19 +130,19 @@
     flex-direction: column;
     align-items: center;
     .entradaBlog{
-      width: 400px;
+      width: 40rem;
     }
   }
   //seccion contacto
   .formulario{
-    padding: 60px;
+    padding: 6rem;
   }
 
   .footer{
-    height: 50px;
+    height: 5rem;
     p{
-      padding-top: 10px;
-      margin-left: 20px;
+      padding-top: 1rem;
+      margin-left: 2rem;
     }
   }
 
@@ -156,7 +156,7 @@
     display: flex;
     justify-content: space-between;
     li{
-      margin: 12px;
+      margin: 1.2rem;
     }
     ul{
       display: flex;
@@ -166,7 +166,7 @@
   }
   .centro{
     .frase{
-    font-size: 28px;
+    font-size: 2.8rem;
     }
   }
    
@@ -176,10 +176,10 @@
 
     .imgPresentacion{
       img{
-        width: 450px;
-        width: 400px;
+        width: 45rem;
+        width: 40rem;
         display: block;
-        margin-left: 20px;
+        margin-left: 2rem;
       }
     }
     
@@ -198,7 +198,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px; 
+    margin: 2rem; 
 
     .grillaSobreMi{
       display: grid;
@@ -210,30 +210,30 @@
       .imgSobreMi{
         display: block;
         grid-area: imgPresentacion;
-        padding: 20px;
-        width: 500px;
+        padding: 2rem;
+        width: 50rem;
         img{
           width: 80%; 
         }
       }
       .presentacionPersonal{
         grid-area: textoPresentacion;
-        padding-top: 40px;
-        width: 500px;
+        padding-top: 4rem;
+        width: 50rem;
       }
       .imgPresentacionTrabajo{
         display: block;
         grid-area: imgTrabajo;
-        padding: 20px;
-        width: 500px;
+        padding: 2rem;
+        width: 50rem;
         img{
           width: 80%;
         }
       }
       .presentacionTrabajo{
         grid-area: textoTrabajo;
-        padding: 20px;
-        width: 450px;
+        padding: 2rem;
+        width: 45rem;
       }
     }
   }
@@ -246,15 +246,15 @@
     }
  
     .testimonios{
-      width: 300px;
-      padding: 80px;
+      width: 30rem;
+      padding: 8rem;
     }
   }
   
 
   //seccion servicios
   .contenedorServicios{
-    padding: 15px;
+    padding: 1.5rem;
   }
   .servicios{
     display: flex;
@@ -271,7 +271,7 @@
         display: flex;
         flex-direction: column;
         h3{
-          padding: 10px;
+          padding: 1rem;
         }
       }
     }
@@ -281,7 +281,7 @@
     flex-direction: row;
     justify-content: center;
     .entradaBlog{
-      width: 550px;
+      width: 55rem;
     }
   }
   
@@ -294,27 +294,27 @@
     .contactoTextoImagen{
       .imgContacto{
         img{
-          width: 500px;
+          width: 50rem;
         }
       }
       .imgContacto{
         img{
-          width: 500px;
+          width: 50rem;
         }
       }
     }
     
     .formulario{
-      padding: 40px;
+      padding: 4rem;
     }
   }
   .footer{
     footer{
-      height: 40px;
+      height: 4rem;
 
       p{
-        padding-top: 10px;
-        padding-left: 20px
+        padding-top: 1rem;
+        padding-left: 2rem
       }
     }
   }

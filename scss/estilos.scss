@@ -7,11 +7,15 @@
 @import "footer";
 @import "mediaquerys";
 
+html{
+    font-size: 62.5%;
+}
 *{
     margin: 0;
     padding: 0;
 }
 body{
+    font-size: 1.6rem;
     font-family: 'Lora', serif;
     font-family: 'Montserrat', sans-serif;
     background-color: #f9f9f9;

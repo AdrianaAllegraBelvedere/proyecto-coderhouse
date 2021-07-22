@@ -5,12 +5,12 @@ $color: #F89953;
     background-image: url('../img/hero.jpg');
     background-position: center center;
     background-size: cover;
-    padding: 20px;
+    padding: 2rem;
     .centro{
         grid-area: centro;
         text-align: center;
-        font-size: 14px;
-        margin: 80px;
+        font-size: 1.4rem;
+        margin: 8rem;
 
         .frase{
             p{
@@ -19,8 +19,8 @@ $color: #F89953;
         }
         .botonContacto{
                 button{
-                padding: 12px 10px;
-                margin: 10px;
+                padding: 1.2rem 1rem;
+                margin: 1rem;
                 border: none;
                 background-color: $color;
                 color: rgb(255, 254, 254);
@@ -36,12 +36,12 @@ $color: #F89953;
 //segundo header
 .segundoHeader{
     background-color: $color;
-    padding: 10px;
+    padding: 1rem;
     h1{
-        font-size: 22px;
+        font-size: 2.2rem;
     }
     h2{
-        font-size: 18px;
+        font-size: 1.8rem;
     }
     
 }
