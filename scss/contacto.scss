@@ -6,11 +6,11 @@
         text-align: center;
 
         h3{
-            color: #F89953;
+            color: $color;
             margin-bottom: 20px;
         }
         .imgContacto{
-                img{
+            img{
                 margin: 20px;
                 width: 90%;
                 
@@ -31,21 +31,19 @@
                 border-radius: 4px;
                 box-sizing: border-box;
                 margin-bottom: 20px;
-              }
-              input[type=submit] {
-                
-                background-color:#F89953;
+            }
+            input[type=submit]{
+                background-color: $color;
                 color: white;
                 padding: 14px 20px;
                 margin: 8px 0;
                 border: none;
                 border-radius: 4px;
                 cursor: pointer;
-              }
-              .submit:hover{
+            }
+            .submit:hover{
                 transform: scale(1.1);
-
-              }
+            }
         }
         textarea{
             margin-top: 20px;
