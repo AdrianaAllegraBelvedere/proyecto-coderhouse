@@ -1,6 +1,7 @@
 {
-  "name": "proyecto",
+  "name": "asesoramiento_de_imagen",
   "version": "1.0.0",
+  "description": "entrega numero 4 del proyecto ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,15 +13,5 @@
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.10"
-  },
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AdrianaAllegraBelvedere/proyecto-coderhause.git"
-  },
-  "bugs": {
-    "url": "https://github.com/AdrianaAllegraBelvedere/proyecto-coderhause/issues"
-  },
-  "homepage": "https://github.com/AdrianaAllegraBelvedere/proyecto-coderhause#readme",
-  "description": ""
+  }
 }
