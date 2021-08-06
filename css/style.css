@@ -1,3 +1,36 @@
+html {
+  font-size: 62.5%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Lora', serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f9f9; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+li {
+  list-style: none; }
+
+p {
+  font-family: 'Lora', serif;
+  font-size: 500; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif; }
+
+h2 {
+  font-family: 'Montserrat', sans-serif; }
+
+h3 {
+  font-family: 'Montserrat', sans-serif; }
+
 .primerHeader {
   height: 80vh;
   background-image: url("../img/hero.jpg");
@@ -8,7 +41,7 @@
     grid-area: centro;
     text-align: center;
     font-size: 1.4rem;
-    margin: 8rem; }
+    margin: 0.8rem; }
     .primerHeader .centro .frase p {
       color: white; }
     .primerHeader .centro .botonContacto button {
@@ -57,7 +90,7 @@
   width: 25rem;
   margin: 2rem; }
 
-.sobreMi .presentacionPersonal p {
+.sobreMi .presentacionDelTrabajo p {
   margin: 2rem; }
 
 .testimoniosSection h3 {
@@ -96,7 +129,7 @@
   margin: 2rem;
   border: .2rem solid;
   border-color: #e4e0e0;
-  width: 30rem; }
+  min-width: 25rem; }
   .entradaBlog .imgBlog {
     width: 100%; }
   .entradaBlog p {
@@ -292,7 +325,7 @@
         width: 50rem; }
         .sobreMi .grillaSobreMi .imgPresentacionTrabajo img {
           width: 80%; }
-      .sobreMi .grillaSobreMi .presentacionTrabajo {
+      .sobreMi .grillaSobreMi .presentacionDelTrabajo {
         grid-area: textoTrabajo;
         padding: 2rem;
         width: 45rem; }
@@ -342,36 +375,3 @@
     .footer footer p {
       padding-top: 1rem;
       padding-left: 2rem; } }
-
-html {
-  font-size: 62.5%; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  font-size: 1.6rem;
-  font-family: 'Lora', serif;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #f9f9f9; }
-
-a {
-  text-decoration: none;
-  color: white; }
-
-li {
-  list-style: none; }
-
-p {
-  font-family: 'Lora', serif;
-  font-size: 500; }
-
-h1 {
-  font-family: 'Montserrat', sans-serif; }
-
-h2 {
-  font-family: 'Montserrat', sans-serif; }
-
-h3 {
-  font-family: 'Montserrat', sans-serif; }
